@@ -1,5 +1,6 @@
 
-# <div style="display:flex;align-items:center"> <img src="https://i.ibb.co/x3CjSMh/circle-cropped.png" width=50px style="padding-right:10px" alt="Codeforces-Bot-help" border="0"> Codeforces Helper </div>
+# Codeforces Helper
+This Project is origin from [CodeforcesBot](https://marketplace.visualstudio.com/items?itemName=avi01.codeforcesbot-ext). However, CodeforcesBot is not working after visual studio code 1.40.0. So I has fixed the issues and make it work. Enjoy for now!
 
 Now you can submit your solution to codeforces contest in one click. <br> 
 Simple UI which allow you to see all the contests, run your solution on sample test cases, submit solution and see standing and rating of your friends.
