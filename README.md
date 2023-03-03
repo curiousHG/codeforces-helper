@@ -1,71 +1,70 @@
-# codeforces-helper README
 
-This is the README for your extension "codeforces-helper". After writing up a brief description, we recommend including the following sections.
+# <div style="display:flex;align-items:center"> <img src="https://i.ibb.co/x3CjSMh/circle-cropped.png" width=50px style="padding-right:10px" alt="Codeforces-Bot-help" border="0"> Codeforces Helper </div>
+
+Now you can submit your solution to codeforces contest in one click. <br> 
+Simple UI which allow you to see all the contests, run your solution on sample test cases, submit solution and see standing and rating of your friends.
 
 ## Features
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+* See all the running, future and past contests.
+* Creates directory for a contest with template ready file for each problem.
+* Test all sample test cases or submit solution in one click.
+* See your and yours friends standing for a contest.
+* Rating of you and your friends is ranked order.
+* simple UI and easy to use.
+* Settings that allow to choose compiler and template code for solution.
 
-For example if there is an image subfolder under your extension project workspace:
 
-\!\[feature X\]\(images/feature-x.png\)
+## Setup
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+![CodeforcesHelper settings](https://i.ibb.co/nqGk031/Codeforces-Bot-Login-animation.gif)
 
-## Requirements
+1. Open command palette (Ctrl+Shift+P)
+2. Write `login` and select the login option.
+3. It will ask for the username and password of your codeforces account.
+5. You need to set the compiler and template file in [Extension Setting](#Extension-Settings)
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+
+
+## Instructions
+
+![CodeforcesHelper settings](https://i.ibb.co/ByCrfcM/Codeforces-Bot.png)
+
+### 1. Extension Explorer
+* Click the icon to see the contests and ratings.
+
+
+### 2. Refresh
+* Refresh button allow you to reload to the contests and ratings.
+
+
+### 3. Create contest directory
+* It create a directory of contest which will have the sample testcases and cpp solution file with the template code.
+
+### 4. Run Solution
+* This button allows you to run your solution on the sample testcases.
+* Run button is available in extension explorer and on top of code itself.
+
+### 5. Submit Solution
+* This button allows you to submit your solution.
+* Verdict will be displayed after submission.
+* Submit button is available in extension explorer and on top of code itself.
+
+### 6. Login status
+* The login status is displayed for the account.
+
+
 
 ## Extension Settings
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
+![CodeforcesHelper settings](https://i.ibb.co/RHWdnkH/Codeforces-Bot-Setting.png)
 
-For example:
+### 1. Compile Command
+* You can choose the compiler of c++ which should be used to compile you solution.<br>
+And additional arguments can also be passed. For example std of c++ (`g++ --std=c++14`).
 
-This extension contributes the following settings:
+### 2. Template File
+* Default template is provided. If you want to use your own template to be used for solution, you should set the template file path to the setting.
 
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
-
-## Known Issues
-
-Calling out known issues can help limit users opening duplicate issues against your extension.
-
-## Release Notes
-
-Users appreciate release notes as you update your extension.
-
-### 1.0.0
-
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
-
----
-
-## Following extension guidelines
-
-Ensure that you've read through the extensions guidelines and follow the best practices for creating your extension.
-
-* [Extension Guidelines](https://code.visualstudio.com/api/references/extension-guidelines)
-
-## Working with Markdown
-
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
-
-## For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+### 3. Template Line Number
+* You can specify the line number of template from where you want to start writing the solution.
